@@ -1,9 +1,11 @@
 
 R Programming for Reporting: Creating Presentations with RMarkdown
-This project demonstrates the use of R Programming for generating presentation slides and reports. Using the RMarkdown package, we can create interactive and visually appealing:
-•	Presentation slides
+This project demonstrates the use of R Programming for generating presentation slides and reports. Using the RMarkdown package, we can create interactive and visually appealing:<br/>
+
+•   Presentation slides
 •	HTML reports
 •	PDF reports
+
 Types of Presentations in R Programming
 RMarkdown supports the creation of three types of presentations:
 1.	Slidy-Presentation
