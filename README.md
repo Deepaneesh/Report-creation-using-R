@@ -1,17 +1,18 @@
 
-R Programming for Reporting: Creating Presentations with RMarkdown
+<b>R Programming for Reporting: Creating Presentations with RMarkdown</b>
 This project demonstrates the use of R Programming for generating presentation slides and reports. Using the RMarkdown package, we can create interactive and visually appealing:<br/>
 
-•   Presentation slides
-•	HTML reports
+•   Presentation slides<br/>
+•	HTML reports<br/>
 •	PDF reports
 
-Types of Presentations in R Programming
+<b>Types of Presentations in R Programming<b><br/>
 RMarkdown supports the creation of three types of presentations:
 1.	Slidy-Presentation
 2.	ioslides-Presentation
-3.	Beamer-Presentation
-Interactive Features in R Programming
+3.	Beamer-Presentation<br/>
+
+<b>Interactive Features in R Programming</b><br/>
 R offers several packages for creating interactive content, such as:
 •	DT: Enables interactive data tables, allowing users to explore data dynamically.
 •	ggplot2: A powerful package for creating high-quality, static visualizations.
