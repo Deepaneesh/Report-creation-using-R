@@ -25,4 +25,7 @@ This PPT was created using the ioslides-Presentation format in RMarkdown, which 
 •	<b>Dynamic Text Resizing:</b> <br/>
 o	Press b to make the slide text larger. The content is automatically paraphrased and realigned for better readability.<br/>
 o	Press s to shrink the text size.<br/>
-•	<b>HTML Conversion:</b> Press a during the presentation to convert the slides into an HTML web report for online sharing.
+•	<b>HTML Conversion:</b> Press a during the presentation to convert the slides into an HTML web report for online sharing.<br/>
+
+To use the rmd file i request you to download it and open in <b>R studio</b><br/>
+To use the <b> addvanced PPT created by R Programming</b>, i request you to download it from output folder and open in web brower 
