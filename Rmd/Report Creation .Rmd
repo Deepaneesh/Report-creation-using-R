@@ -1,0 +1,80 @@
+---
+title: "R programming "
+author: "Deepaneesh R V"
+date: "2024-10-07"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## WHAT IS R PROGRAMMING
+
+ R is a powerful, open-source programming language widely used for statistical computing, data analysis, and data visualization. It's popular among statisticians, data scientists, and researchers for its ability to handle large datasets and complex analyses efficiently.
+
+## R for Presentation ?
+While R is known for data analysis, it also has packages that allow you to create interactive and polished presentations. These include tools for seamlessly combining data, analysis, and visualization into professional-looking slides.
+
+- Slidy-presentation
+- ioslides-presentation
+- Beamer-presentation 
+
+## INTERACTIVE DATASET
+By using DT package ,R programming allow the user to handle or interact with the data !
+
+```{r Dataset, echo=FALSE, warning=FALSE}
+library(DT)
+datatable(iris,filter='top',editable = TRUE , extensions = 'Buttons', options = list(
+  dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf')
+))
+
+```
+
+## PLOT USING 'ggplot2'
+ggplot2 is a package which allow the user to create and customize the chart based on their wish 
+```{r echo=FALSE}
+library(ggplot2)
+iris|>ggplot(aes(x=Species,y=Sepal.Length,fill = Species))+geom_bar(stat = "identity")+
+  labs(title = "barchart")+theme(plot.title = element_text(hjust = 0.5,face="bold"))
+```
+
+
+
+
+## INTERACTIVE GRAPH
+Plotly package is used for creating a interactive charts and 3D charts in R programming 
+even in html presentation or html report the user can easily interact 
+```{r warning=FALSE, include=FALSE}
+library(plotly)
+# Sample data for a surface plot
+x <- seq(-10, 10, length.out = 100)
+y <- seq(-10, 10, length.out = 100)
+z <- outer(x, y, function(x, y) sin(sqrt(x^2 + y^2)))
+
+# Create a 3D surface plot
+K=plot_ly(x = ~x, y = ~y, z = ~z, type = "surface") %>%
+  layout(scene = list(xaxis = list(title = 'X Axis'),
+                      yaxis = list(title = 'Y Axis'),
+                      zaxis = list(title = 'Z Axis')))
+
+```
+```{r echo=FALSE}
+K
+```
+
+
+
+## CREATING MAPS TOO
+The package "leaflet" is helpful to Creating  global maps in R programming
+```{r Map , echo=FALSE, warning=FALSE}
+library(leaflet)
+k=leaflet()|> addTiles() |> addMarkers(lat=11.0327,lng = 77.0341,popup = "Arts college",label = "PSGCAS")
+k
+```
+## CONCLUSION 
+ R programming is also a programming language which have so many features like other languages . But it is not that much popular 
+ 
+                    Thank you 
+
