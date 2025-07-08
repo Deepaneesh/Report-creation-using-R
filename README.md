@@ -41,3 +41,5 @@ To use the rmd file i request you to download it and open in <b>R
 studio</b><br/> To use the <b> addvanced PPT created by R
 Programming</b>, i request you to download it from output folder and
 open in web brower
+
+or [Click here](https://deepaneesh.github.io/Report-creation-using-R/#(1))
