@@ -1,8 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
 
 **R Programming for Reporting: Creating Presentations with RMarkdown**
 
